@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Practice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <div class="gcontainer">
+            <form>
+                <label for="name" ><h4>Nombre</h4></label>
+                <input type="text" name="name" id="1" class="area">
+                <label for="email"><h4>Email</h4></label>
+                <input type="text" name="email" id="2" class="area">
+                <label for="razon"><h3>Razon</h3></label>
+                <div class="cajarad">
+                <input type="radio" name="queja" id="3">Queja
+                <input type="radio" name="queja" id="4">Agendar cita
+                <input type="radio" name="queja" id="5">Aclaracion
+                </div>
+                <br>
+                <label for="razon"><h3>Detalles</h3></label>
+                <textarea name="detalles" id="6" class="textarea">Ingrese los detalles</textarea>
+                <label for="razon"><h3>Como nos conociste</h3></label>
+                <select name="alcance" id="7" class="opciones">
+                    <option value="1">Instagram</option>
+                    <option value="2">Facebook</option>
+                    <option value="3">Tv</option>
+                    <option value="4">Externos</option>
+                </select>
+                <br>
+                <input type="submit" name="Enviar" class="boton">
+            </form>
+        </div>
+</body>
+</html>
