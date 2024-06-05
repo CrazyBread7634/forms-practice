@@ -16,20 +16,24 @@ body{
     border-radius: 7px;
     width: 250px;
     height: 100px;
+    box-shadow: 5px 5px 5px grey;
  }
  .opciones{
     width: 250px;
     height: 25px;
     border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
  }
  .boton{
     width: 250px; 
     height: 40px;
     border-radius: 5px;
     margin-top: 20px;
+    box-shadow: 5px 5px 5px grey;
  }
  .area{
     width: 250px;
+    box-shadow: 5px 5px 5px grey;
  }
  .gcontainer{
     border: 2px solid gainsboro;
